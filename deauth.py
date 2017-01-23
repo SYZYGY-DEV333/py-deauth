@@ -295,7 +295,7 @@ def full_help():
     print "\t\t", '{flag: <{width}} {msg}'.format(flag = '-c, --client', width = padding, msg = 'Deauth a specific client')
     print "\t\t", '{flag: <{width}} {msg}'.format(flag = '-f, --freq', width = padding, msg = 'Frequency to scan')
     print "\t\t", '{flag: <{width}} {msg}'.format(flag = '-n, --network', width = padding, msg = 'Deauth access points broadcasting a specific SSID')
-    print "\t\t", '{flag: <{width}} {msg}'.format(flag = '-r, --range', width = padding, msg = 'Frequency range to scan "2.4" or "5"')
+    print "\t\t", '{flag: <{width}} {msg}'.format(flag = '-r, --range', width = padding, msg = 'Frequency range to scan ("2.4" or "5")')
     print "\t\t", '{flag: <{width}} {msg}'.format(flag = '-v, --verbose', width = padding, msg = 'Print details')
 
 def main(argv):
